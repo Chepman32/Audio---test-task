@@ -1,0 +1,17 @@
+.player {
+    width: 600px;
+}
+
+audio {
+    width: 100%;
+}
+
+.timing {
+    width: 100%;
+}
+.control {
+    cursor: pointer;
+}
+.pause {
+    background: green;
+}

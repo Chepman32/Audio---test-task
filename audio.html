@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Аудиоплеер</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        Текущее время: <span class="currentTime">0</span>
+    </div>
+    <div>
+        Оставшееся время: <span class="estimatedTime"></span>
+    </div>
+    <div class="player">
+        <audio src="The%20White%20Stripes%20-%20Seven%20Nation%20Army%20.mp3"></audio>
+        <input type="range" class="timing" value="0" step="0.001">
+    </div>
+
+    <i class="fas fa-play control"></i>
+    <i class="fas fa-pause control"></i>
+    <button class="playback05 control">0.5</button>
+    <button class="playback1 control">1</button>
+    <button class="playback1-25 control">1.25</button>
+    <button class="playback1-5 control">1.5</button>
+    <button class="playback1-75 control">1.75</button>
+    <button class="playback2 control">2</button>
+    <button class="playback2-5 control">2.5</button>
+    <input type="range" class="volume" min="0" max="1" step="0.01">
+
+    <script src="audio.js"></script>
+</body>
+</html>
